@@ -1,6 +1,6 @@
 // Fetch and render initial player list
 function fetchPlayers() {
-    fetch('https://api.example.com/puppies')
+    fetch('https://fsa-puppy-bowl.herokuapp.com/api/2302-acc-et-web-pt/players')
       .then(response => response.json())
       .then(players => renderPlayerList(players))
       .catch(error => console.error(error));
